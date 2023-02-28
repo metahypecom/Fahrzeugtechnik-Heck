@@ -1161,6 +1161,10 @@ label {
   font-weight: 400;
 }
 
+.explanation.name {
+  display: none;
+}
+
 .contact-link {
   display: -webkit-box;
   display: -webkit-flex;
