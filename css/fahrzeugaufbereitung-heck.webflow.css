@@ -504,6 +504,10 @@ label {
   text-align: center;
 }
 
+.heading2.mobile-show {
+  display: none;
+}
+
 .empty-128 {
   height: 128px;
 }
@@ -1947,6 +1951,14 @@ label {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .heading2.mobile-hide {
+    display: none;
+  }
+
+  .heading2.mobile-show {
+    display: block;
   }
 
   .service-grid {
